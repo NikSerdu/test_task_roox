@@ -58,7 +58,7 @@ export const useProfile = (userId: number) => {
 		}
 	}, [currentUser, setValue])
 	const onSubmit: SubmitHandler<IFormValues> = data => {
-		console.log(data)
+		console.log('Новые данные:', data)
 		updateUser(data)
 		setIsDisabled(true)
 	}
