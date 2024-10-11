@@ -1,0 +1,13 @@
+.sidebar {
+	h2 {
+		font-size: 20px;
+	}
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background-color: #bdbdbd;
+	padding: 30px;
+	button {
+		margin-top: 10px;
+	}
+}

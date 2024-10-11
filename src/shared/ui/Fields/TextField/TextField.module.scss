@@ -1,0 +1,16 @@
+.text_field {
+	display: flex;
+	flex-direction: column;
+	gap: 3px;
+	span {
+		color: black;
+	}
+	input {
+		border: 1px solid #d8d8d8;
+		border-radius: 5px;
+		padding: 5px 10px;
+		&.invalid {
+			border: 1px solid red;
+		}
+	}
+}

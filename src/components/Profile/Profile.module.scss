@@ -1,0 +1,36 @@
+.profile {
+	font-size: 20px;
+	padding: 10px 36px;
+	width: 100%;
+	div {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	form {
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		border: 2px solid #d8d8d8;
+		padding: 40px;
+		border-radius: 5px;
+		input {
+			width: 50%;
+		}
+	}
+	textarea {
+		resize: none;
+	}
+	button {
+		font-size: 25px;
+		margin-left: auto;
+	}
+
+	button[type='submit'] {
+		background-color: #52cf4f;
+	}
+
+	button[type='submit']:disabled {
+		background-color: #afafaf;
+	}
+}
